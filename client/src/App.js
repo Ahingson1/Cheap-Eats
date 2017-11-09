@@ -12,11 +12,7 @@ class Homepage extends Component {
           
          <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/60px-Ohio_State_Buckeyes_logo.svg.png" align="Middel" />
          <img id="Img" src="img.jpg" onClick="myFunction()" />
-         $(document).ready(function() {
-           $("img").click(function(){
-            alert("It.works!");
-           });
-         });
+         
         
           <h1 className="App-title">Ohio State Buckeyes Social Network</h1>
         </header>
