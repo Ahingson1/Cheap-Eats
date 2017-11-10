@@ -10,7 +10,7 @@ class Homepage extends Component {
       <div className="App">
         <header className="App-header">
           <a onClick="Img">
-         <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/60px-Ohio_State_Buckeyes_logo.svg.png" align="Middel" onClick="Img" />
+          <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/60px-Ohio_State_Buckeyes_logo.svg.png" align="Middel" onClick="Img" />
          <img id="Img" src="img.jpg" onClick="myFunction()" />
          </a>
         
