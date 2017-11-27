@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import app from "../App";
+import App from "../App";
 
 class Signout extends Component {
     constructor(props) {
