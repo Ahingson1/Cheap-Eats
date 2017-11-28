@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
+import { reduxForm } from "redux-form";
+import { Router, Route, Switch } from 'react-router'
+import * as actions from "../../actions";
+import PropTypes from "prop-types";
 import App from "../App";
+import signout from "./signout";
+import signup from "./signup";
 
 
 class Signin extends Component {
@@ -45,7 +51,7 @@ class Signin extends Component {
         </li>
         ,
         <li className='nav-item' key={2}>
-          <Link className='btn btn-default tg-login__btn' to='/dashboard'>Dashboard</Link>
+        <Link className='btn btn-default tg-login__btn' to='/dashboard'>Dashboard</Link>
         </li>
         ,
         <li className='nav-item' key={3}>

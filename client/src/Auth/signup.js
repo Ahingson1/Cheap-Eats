@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { reduxForm } from 'redux-form';
+import * as actions from "../../actions";
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import App from "../App";
