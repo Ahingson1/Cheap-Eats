@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import index from "./index";
-/*import signup from "./Auth/signup";
-import signin from "./Auth/signin";
-import signout from "./Auth/signout";
-import requier_auth from "./Auth/requier_auth";*/
+//import signup from "./Auth/signup";
+//import signin from "./Auth/signin";
+//import signout from "./Auth/signout";
+//import requier_auth from "./Auth/requier_auth";
+
 
 
 class Homepage extends Component {

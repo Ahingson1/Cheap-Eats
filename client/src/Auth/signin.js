@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { reduxForm } from "redux-form";
 import { Router, Route, Switch } from 'react-router'
-import * as actions from "../../actions";
+import { Link } from 'react-router-dom';
+import * as actions from "../actions";
 import PropTypes from "prop-types";
 import App from "../App";
 import signout from "./signout";
