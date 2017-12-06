@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { reduxForm } from "redux-form";
 import { Router, Route, Switch } from 'react-router'
 import { Link } from 'react-router-dom';
-import * as actions from "../actions";
+import * as Actions from "../actions";
 import PropTypes from "prop-types";
 import App from "../App";
 import signout from "./signout";
@@ -126,4 +126,4 @@ function mapStateToProps (state) {
 export default reduxForm({
   form: 'signin',
   fields: ['email', 'password']
-}, mapStateToProps, actions)(Signin)
+}, mapStateToProps, A//ctions)(Signin)
