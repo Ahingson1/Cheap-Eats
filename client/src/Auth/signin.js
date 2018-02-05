@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import App from "../App";
 import signout from "./signout";
 import signup from "./signup";
-
+import chatbox from "./chatbox"
 
 class Signin extends Component {
     constructor(props) {
